@@ -2,7 +2,6 @@ package com.example.demo.dto.response;
 
 public class DepartmentResponseDto {
     private Long id;
-
     private String name;
     
      public Long getId() {

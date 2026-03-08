@@ -5,8 +5,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.dto.request.EmployeeRequestDto;
 import com.example.demo.dto.response.EmployeeResponseDto;
+import com.example.demo.entity.department.Department;
 import com.example.demo.service.EmpolyeeService;
 
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 import jakarta.validation.Valid;
 
 import org.springframework.web.bind.annotation.PostMapping;
